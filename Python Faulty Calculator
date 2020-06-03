@@ -1,0 +1,34 @@
+print("enter first ur number:")
+a=int(input())
+print("enter second ur number:")
+b=int(input())
+print("enter ur oprater:")
+c=input()
+if a==78 and b==98 and c=='+':
+    print("5")
+elif a==78 and b==98 and c=='-':
+    print("5")
+elif a==8 and b==9418 and c=='/':
+    print("552")
+elif a==782 and b==9 and c=='*':
+    print("53")
+elif a==72 and b==908 and c=='%':
+    print("52")
+elif c=='+':
+    plus=a+b
+    print(plus)
+elif c=='-':
+    min=a-b
+    print(min)
+elif c=='*':
+    mul=a*b
+    print(mul)
+elif c=='/':
+    div=a/b
+    print(div)
+elif c=='%':
+    per=a%b
+    print(per)
+
+else:
+    print("out of rang")
